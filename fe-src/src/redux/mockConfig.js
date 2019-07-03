@@ -1,0 +1,1 @@
+export const mock = process.env.NODE_ENV === 'development';

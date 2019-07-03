@@ -1,0 +1,42 @@
+body {
+  font-family: 'PingFangSC';
+}
+.app-layout {
+  min-height: 100vh;
+}
+.app-header {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 1px 4px 0 rgba(0, 21, 41, .12);
+  z-index: 1;
+  .user-name {
+    margin-left: 12px;
+  }
+}
+.app-content {
+  margin: 0 16px;
+  .app-content-render {
+    margin-top: 16px;
+    background: #fff;
+    min-height: 360px;
+    position: relative;
+  }
+}
+.route-spin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.ant-page-header {
+  border-bottom: 1px solid #E9E9E9;
+}
+.spin-large {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

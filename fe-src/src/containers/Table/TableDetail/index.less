@@ -1,0 +1,47 @@
+.table-detail {
+  .type-render {
+    margin: 24px;
+    background: #fff;
+    border-radius: 2px;
+    padding: 32px;
+  }
+  .type-item {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 32px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+    &:last-of-type {
+      border-bottom: 0;
+    }
+    color: rgba(0, 0, 0, .85);
+  }
+  .type-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .type-content-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .type-content-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 14px;
+    margin-right: 24px;
+    .item-name {
+      margin-right: 20px;
+      min-width: 48px;
+    }
+    .item-value {
+      min-width: 271px;
+    }
+  }
+}

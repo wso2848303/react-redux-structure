@@ -1,0 +1,1 @@
+export const GET_TREE_DATA = '/getTreeData';

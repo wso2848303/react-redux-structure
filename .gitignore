@@ -1,0 +1,4 @@
+/fe-src/node_modules
+/fe-src/dist
+/fe-src/.DS_Store
+/fe-src/npm-debug.log*

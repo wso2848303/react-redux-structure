@@ -1,0 +1,52 @@
+.dashboard-content {
+  margin: 24px;
+}
+.dashboard-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 24px;
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+.dashboard-item {
+  width: 266px;
+  margin-right: 24px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+  &.big {
+    width: 556px;
+  }
+}
+.dashboard-render {
+  background: #fff;
+  border-radius: 2px;
+}
+.pie-render {
+  margin-top: 25px;
+  min-height: 312px;
+  .pie-total {
+    color: #000;
+    font-size: 30px;
+  }
+}
+.pie-list {
+  margin-top: 25px;
+  min-height: 312px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .pie-percent {
+    color: #000;
+    font-size: 24px;
+  }
+  .pie-item {
+    width: 155px;
+  }
+}
+.antd-pro-charts-pie-pie .antd-pro-charts-pie-total>h4 {
+  margin-bottom: 0;
+}
